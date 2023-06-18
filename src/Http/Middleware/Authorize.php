@@ -16,10 +16,6 @@ class Authorize
      */
     public function handle($request, $next)
     {
-        if (!data_get($request->user(), 'isAdmin')) {
-            abort(403);
-        }
-
         $tool = collect(Nova::registeredTools())->first([$this, 'matchesTool']);
 
         return optional($tool)->authorize($request) ? $next($request) : abort(403);
