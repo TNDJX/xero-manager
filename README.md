@@ -32,12 +32,26 @@ After that register tool in `NovaServiceProvider`:
 public function tools()
 {
     return [
-        new \Tndjx\XeroManager\XeroManager,
+        \Tndjx\XeroManager\XeroManager::make(),
     ];
 }
 ```
 
 That's it, you're ready to go!
+
+## Restricting Access
+You can restrict access to the tool by using `canSee` method in `NovaServiceProvider`:
+
+```php
+public function tools()
+{
+    return [
+        \Tndjx\XeroManager\XeroManager::make()->canSee(function ($request) {
+            return $request->user()->isAdmin();
+        }),
+    ];
+}
+```
 
 #### Screenshot
 ![screenshot.png](screenshot.png)
