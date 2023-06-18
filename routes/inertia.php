@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Laravel\Nova\Http\Requests\NovaRequest;
-use Tndjxd\XeroManager\Http\Controllers\XeroController;
+use Tndjx\XeroManager\Http\Controllers\XeroController;
 
 /*
 |--------------------------------------------------------------------------

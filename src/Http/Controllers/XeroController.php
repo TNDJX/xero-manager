@@ -1,6 +1,6 @@
 <?php
 
-namespace Tndjxd\XeroManager\Http\Controllers;
+namespace Tndjx\XeroManager\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

@@ -7,4 +7,4 @@ mix
   .js('resources/js/xero-manager.js', 'js')
   .vue({ version: 3 })
   .css('resources/css/xero-manager.css', 'css')
-  .nova('tndjxd/xero-manager')
+  .nova('tndjx/xero-manager')

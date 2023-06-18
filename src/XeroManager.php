@@ -1,6 +1,6 @@
 <?php
 
-namespace Tndjxd\XeroManager;
+namespace Tndjx\XeroManager;
 
 use Illuminate\Http\Request;
 use Laravel\Nova\Menu\MenuSection;

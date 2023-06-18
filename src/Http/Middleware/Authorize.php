@@ -1,9 +1,9 @@
 <?php
 
-namespace Tndjxd\XeroManager\Http\Middleware;
+namespace Tndjx\XeroManager\Http\Middleware;
 
 use Laravel\Nova\Nova;
-use Tndjxd\XeroManager\XeroManager;
+use Tndjx\XeroManager\XeroManager;
 
 class Authorize
 {

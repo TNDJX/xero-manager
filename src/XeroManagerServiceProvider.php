@@ -1,13 +1,13 @@
 <?php
 
-namespace Tndjxd\XeroManager;
+namespace Tndjx\XeroManager;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 use Laravel\Nova\Events\ServingNova;
 use Laravel\Nova\Http\Middleware\Authenticate;
 use Laravel\Nova\Nova;
-use Tndjxd\XeroManager\Http\Middleware\Authorize;
+use Tndjx\XeroManager\Http\Middleware\Authorize;
 
 class XeroManagerServiceProvider extends ServiceProvider
 {
