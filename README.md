@@ -5,8 +5,14 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/tndjx/xero-manager.svg?style=flat-square&logo=composer)](https://packagist.org/packages/tndjx/xero-manager)
 
 ----
+# Intro
 Nova XeroManager is a package based on [laravel-xero-oauth2](https://github.com/webfox/laravel-xero-oauth2)
+
+It is a simple way that helps you manage your connection to xero.com
+
 ----
+
+
 
 ## Requirements:
 
